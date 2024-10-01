@@ -2,11 +2,11 @@ import google.generativeai as genai
 import pyttsx3
 import speech_recognition as sr
 
-# pip install SpeechRecognition
-# pip install pyaudio
-# pip install pyttsx3
-# pip install --upgrade
-# pip install google-generativeai 
+    # pip install SpeechRecognition
+    # pip install pyaudio
+    # pip install pyttsx3
+    # pip install --upgrade
+    # pip install google-generativeai 
 
 def main():
     assistente_falante = True
@@ -75,7 +75,7 @@ def main():
 
         if texto.strip():
             texto_Modificado = "Responda de uma maneira sarcastica e sem educação "+ texto
-            response = chat.send_message(texto_Modificado)
+            response = chat.send_message(texto)
             print("Gemini:", response.text, "\n")
 
             if assistente_falante:
