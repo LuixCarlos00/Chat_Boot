@@ -1,6 +1,6 @@
 # Chatbot com Python e Google Generative AI
 
-Este projeto é um chatbot desenvolvido utilizando Python, VSCode e algumas bibliotecas específicas para reconhecimento de fala, síntese de voz e integração com o Google Generative AI.
+Este projeto é um chatbot desenvolvido utilizando Python, VSCode e algumas bibliotecas específicas para reconhecimento de fala, síntese de voz e integração com o Google Generative AI
 
 ## Ferramentas Utilizadas
 
